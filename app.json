@@ -14,12 +14,12 @@
   "env": {
     "PREFIX": {
       "description": "Choose your bot's prefix",
-      "value": ".",
+      "value": "-", ".", "," 
       "required": true
     },
     "AUTO_READ_STATUS": {
       "description": "Your contact status will be read automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUTO_REPLY": {
@@ -29,7 +29,7 @@
     },
     "AUTO_LIKE_STATUS": {
       "description": "Your contact status will be liked automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "CHAT_BOT": {
@@ -49,7 +49,7 @@
     },
     "ANTI_VV": {
       "description": "Detect view-once messages",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "ANTILINK": {
@@ -59,7 +59,7 @@
     },
     "BOT_NAME": {
       "description": "Give a name for your bot",
-      "value": "ALPHA-MD",
+      "value": "KINGVIRUS V1",
       "required": false
     },
     "BOT_MENU_LINKS": {
@@ -69,7 +69,7 @@
     },
     "PUBLIC_MODE": {
       "description": "Set 'yes' to make your bot public or 'no' to keep it private",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "HEROKU_API_KEY": {
@@ -89,17 +89,17 @@
     },
     "OWNER_NAME": {
       "description": "Your name",
-      "value": "keithkeizzah",
+      "value": "virus",
       "required": false
     },
     "AUTO_READ_MESSAGES": {
       "description": "yes toactivate no to deactivate",
-      "value": "yes",
+      "value": "no",
       "required": false  
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '254796299159')",
-      "value": "254796299159",
+      "value": "2347086731800",
       "required": false
     },
     "WARN_COUNT": {
@@ -119,7 +119,7 @@
     },
     "ANTI_DELETE_MESSAGE": {
       "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "ANTICALL": {
@@ -129,7 +129,7 @@
     },
     "AUTO_REACTION": {
       "description": "Set 'yes' to enable bot reactions to messages in private chats",
-      "value": "yes",
+      "value": "no",
       "required": false
     }
   },
